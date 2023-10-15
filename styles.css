@@ -1,5 +1,5 @@
 header{
-    background: linear-gradient(65deg, #b074fe, #130d1a);
+    background: linear-gradient(65deg, goldenrod, #130d1a);
     margin: 0;
 }
 h1{
@@ -8,4 +8,20 @@ h1{
 main{
     background: linear-gradient(65deg, #130d1a, goldenrod);
     color : white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    > div {
+        height: 150px;
+        width: 45%;
+        > ul {
+            background-color: black;
+            width: 50%;
+            opacity: 0.9;
+            color: white;
+        }
+    }
+}
+p{
+    margin: 0;
 }
